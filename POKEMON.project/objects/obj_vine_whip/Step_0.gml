@@ -1,7 +1,7 @@
+
 image_xscale=image_xscale+0.03
-	image_yscale=image_yscale+0.03
 	
-if (x-500+y<300){
+if (sprite_width > point_distance(global.active_starter.x, global.active_starter.y, global.mewtwo.x, global.mewtwo.y)){
 	instance_destroy()
 }
 

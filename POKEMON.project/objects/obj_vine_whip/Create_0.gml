@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-move_towards_point(0,500,18)
+image_angle = point_direction(global.active_starter.x, global.active_starter.y, global.mewtwo.x, global.mewtwo.y)
+x = move.owner.x
+y = move.owner.y

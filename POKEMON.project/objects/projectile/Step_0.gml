@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (x+y<100){
-	instance_destroy()
+	instance_destroy(); exit;
 }
 
 if (!audio_is_playing(move.sound)){

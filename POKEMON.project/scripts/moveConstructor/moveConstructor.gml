@@ -1,13 +1,13 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function moveStruct(_damage=0, _button = noone, _animation, _effect, _animationStart, _animationEnd, _sound) constructor{
-damage=_damage
-animation= _animation
-animationStart= _animationStart
+damage = _damage
+animation = _animation
+animationStart = _animationStart
 animationEnd = _animationEnd
-effect= method(undefined, _effect)
+effect = method(undefined, _effect)
 button = _button
-owner=noone
+owner = noone
 sound = _sound
 getOpponent = function(){return ifElseReturn(owner == global.mewtwo, global.active_starter, global.mewtwo)}
 }
@@ -62,7 +62,7 @@ function animationStartProjectile(){
 }
 
 function animationStartBasic(){
-	instance_create_depth(0,0,0,animation, {move : other})
+	instance_create_depth(0,0,0, animation, {move : other})
 	audio_play_sound(sound,0,0)
 	audio_play_sound(owner.sound,0,0)
 }
@@ -73,6 +73,7 @@ function growlAnimationStart(){
 }
 
 function animationEndStandard(){
+audio_stop_sound(sound)
 effect()
 switchTurn()		
 }
