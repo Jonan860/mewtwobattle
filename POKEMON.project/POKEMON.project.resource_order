@@ -81,7 +81,6 @@
     {"name":"sound_tail_whip","order":5,"path":"sounds/sound_tail_whip/sound_tail_whip.yy",},
     {"name":"sound_defence_curl","order":1,"path":"sounds/sound_defence_curl/sound_defence_curl.yy",},
     {"name":"sound_elite_four","order":4,"path":"sounds/sound_elite_four/sound_elite_four.yy",},
-    {"name":"ifElseReturn","order":48,"path":"scripts/ifElseReturn/ifElseReturn.yy",},
     {"name":"__global_object_depths","order":3,"path":"scripts/__global_object_depths/__global_object_depths.yy",},
     {"name":"fontoriginal","order":1,"path":"fonts/fontoriginal/fontoriginal.yy",},
     {"name":"obj_pokemon","order":4,"path":"objects/obj_pokemon/obj_pokemon.yy",},

@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "winner",
-  "creationCodeFile": "RoomCreationCode.gml",
+  "creationCodeFile": "rooms/winner/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

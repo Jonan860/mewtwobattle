@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-move.animationStart()
+if(global.turn == TURNS.PLAYER and !instance_exists(moveAnimation)) {
+	move.animationStart()
+}

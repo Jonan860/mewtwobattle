@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-move_towards_point(1000,800,16)
+move_towards_point(1000, 800, 16)
+x += 200
+y += 150
